@@ -37,7 +37,7 @@ const SideBar = ({ activeTab, onTabChange }: SideBarProps) => {
 
       <div className="shrink-0 pt-10">
         {/* Logo */}
-        <div className="px-8 mb-10">
+        <div className=" mb-10">
           <NavIcons.Logo />
         </div>
 

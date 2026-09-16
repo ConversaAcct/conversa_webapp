@@ -212,7 +212,7 @@ const AssistantRole = () => {
           <button
             onClick={handleCreate}
             disabled={isLoading}
-            className="w-full py-4 rounded-xl bg-[#5B0AFF] text-white font-semibold text-[15px] transition-all cursor-pointer mb-12 hover:bg-[#4a08d6] active:scale-[0.99] disabled:opacity-70 flex items-center justify-center min-h-[52px]"
+            className="w-full py-4 rounded-xl bg-[#5B0AFF] text-white font-semibold text-[15px] transition-all cursor-pointer mb-12 hover:bg-[#4a08d6] active:scale-[0.99] disabled:opacity-70 flex items-center justify-center min-h-20"
           >
             {isLoading ? (
               <span className="inline-flex items-center justify-center w-5 h-5">
@@ -277,7 +277,7 @@ const AssistantRole = () => {
 
             {/* Info banner */}
             <div className="w-full max-w-120 bg-[#F5F3FF] rounded-xl px-4 py-4 flex items-start gap-3 mb-16">
-              <img src={info} className="w-[16px] h-[16px]" />
+              <img src={info} className="w-8 h-8" />
               <p className="text-[#220068] text-[13px] font-medium text-left leading-6">
                 Forward calls from your main line, or give this number directly to patients.
               </p>

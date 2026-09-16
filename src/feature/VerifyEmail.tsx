@@ -282,7 +282,7 @@ const toastId = toast.loading("Resending verification code...", {
                 Why we verify your email
               </h4>
               <p className="text-[12px] text-[#6B7280] leading-relaxed">
-                Conversa handles sensitive patient call data. We verify every account to ensure
+                Sernio handles sensitive patient call data. We verify every account to ensure
                 only authorized personnel can deploy AI for a healthcare practice.
               </p>
             </div>

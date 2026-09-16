@@ -238,7 +238,7 @@ const AssistantName = ({ config, onBack, onNext }: AssistantNameProps) => {
           <button
             onClick={handleNext}
             disabled={!name.trim() || isLoading}
-            className={`w-full py-4 rounded-xl text-white font-semibold text-[15px] transition-all cursor-pointer flex items-center justify-center min-h-[52px]
+            className={`w-full py-4 rounded-xl text-white font-semibold text-[15px] transition-all cursor-pointer flex items-center justify-center min-h-20
               ${
                 name.trim() && !isLoading
                   ? "bg-[#5B0AFF] hover:bg-[#4A08D4] active:scale-[0.99]"

@@ -21,7 +21,7 @@ const AGREEMENTS: Agreement[] = [
     badge: "Required",
     badgeColor: "orange",
     description:
-      "I am an authorized representative of this healthcare practice and I agree to Conversa's Business Associate Agreement, governing how patient data is handled in compliance with HIPAA.",
+      "I am an authorized representative of this healthcare practice and I agree to Sernio's Business Associate Agreement, governing how patient data is handled in compliance with HIPAA.",
   },
   {
     id: "tos",
@@ -30,7 +30,7 @@ const AGREEMENTS: Agreement[] = [
     badge: "Required",
     badgeColor: "orange",
     description:
-      "I have read and agree to Conversa's Terms of Service, including policies around permitted use of the AI platform in a healthcare setting.",
+      "I have read and agree to Sernio's Terms of Service, including policies around permitted use of the AI platform in a healthcare setting.",
     link: { label: "Read Terms of Service", href: "#" },
   },
   {
@@ -40,7 +40,7 @@ const AGREEMENTS: Agreement[] = [
     badge: "Required",
     badgeColor: "orange",
     description:
-      "I agree to Conversa's Data Processing Agreement, which governs how patient call data is stored, processed, and protected.",
+      "I agree to Sernio's Data Processing Agreement, which governs how patient call data is stored, processed, and protected.",
     link: { label: "Read Data Processing Agreement", href: "#" },
   },
   {

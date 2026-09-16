@@ -414,7 +414,7 @@ const PracticeIdentity = () => {
               <div>
                 <h4 className="text-[15px] font-medium text-[#1F2937] mb-1">Why we need your registration number</h4>
                 <p className="text-[12px] text-[#6B7280] leading-relaxed">
-                  Conversa deploys AI to handle patient calls. We verify all accounts to protect patient data and comply with healthcare regulations. Your information is stored securely and never shared.
+                  Sernio deploys AI to handle patient calls. We verify all accounts to protect patient data and comply with healthcare regulations. Your information is stored securely and never shared.
                 </p>
               </div>
             </div>

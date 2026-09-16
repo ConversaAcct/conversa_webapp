@@ -136,7 +136,7 @@ const handleSubmit = async () => {
           <div className="account-setup-header-wrap">
             <p className="account-setup-header-text">Create Your Account</p>
             <p className="account-setup-body-text">
-              Who is setting up Conversa for this practice?
+              Who is setting up Sernio for this practice?
             </p>
           </div>
 

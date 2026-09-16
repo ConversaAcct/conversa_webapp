@@ -346,7 +346,7 @@ const AssistantVoice = () => {
           <button
             onClick={handleNext}
             disabled={!selectedVoice || isLoading}
-            className="w-full py-4 rounded-xl bg-[#5B0AFF] text-white font-semibold text-[15px] transition-all cursor-pointer mb-12 flex items-center justify-center min-h-[52px] disabled:opacity-70"
+            className="w-full py-4 rounded-xl bg-[#5B0AFF] text-white font-semibold text-[15px] transition-all cursor-pointer mb-12 flex items-center justify-center min-h-20 disabled:opacity-70"
           >
             {isLoading ? (
               <span className="inline-flex items-center justify-center w-5 h-5">
